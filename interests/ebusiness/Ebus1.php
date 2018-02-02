@@ -57,7 +57,7 @@ salesforce @ $100
      </form>
      
      <br/> 
-     <button onClick="calsub()">Calculate cost</button>
+     <button onClick="calcSub()">Calculate cost</button>
      <a role="button" href="Ebus1.php">Clear Choices</a>
      
      </body>
