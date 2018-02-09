@@ -14,7 +14,7 @@
     
     <br/>
     
-    <form method="POST" action="Ebus2.php">
+    <form method="POST" action="ebusiness/Ebus2.php">
     
 
 
