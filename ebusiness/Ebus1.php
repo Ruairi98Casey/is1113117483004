@@ -1,7 +1,15 @@
-<!--jQuery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="cost_calc.js"></script>
-</head>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Select Product</title>
+        
+        
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="cost_calc.js"></script>
+    
+    </head>
+
 <body>
     <style>
         
@@ -14,7 +22,7 @@
     
     <br/>
     
-    <form method="POST" action="ebusiness/Ebus2.php">
+    <form method="POST" action="Ebus2.php">
     
 
 
@@ -22,10 +30,10 @@
 
 
 
-<lable for="salesforce">
+    <lable for="salesforce">
     
     <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-salesforce @ $100
+    salesforce @ $100
     </lable>
     
     <br/>
@@ -40,14 +48,14 @@ salesforce @ $100
      
      <lable for="subtotal">
          sub  total 
-         <input type="text" id="subtotal" value="0.00" readonly/>
+         <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
          </lable>
          
          <br/>
          
          <lable for="total">
              total
-             <input type="text" id="total" value="0.00" readonly/>
+             <input type="text" id="total" name="total" value="0.00" readonly/>
              </lable>
              
              <br/>
