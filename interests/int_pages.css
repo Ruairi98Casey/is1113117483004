@@ -1,17 +1,32 @@
 #section1{
     background-color: rgb(238, 0, 90);
+    background-image: url("http://www.ncl.ac.uk/media/wwwnclacuk/mobility/images/study-abroad-46217.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 #section2{
     background-color: rgb(44, 62, 80);
+    background-image: url("http://www.skytours.ie/assets/images/geodata/207595.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 #section3{
     background-color: rgb(51, 153, 204);
+    background-image: url("https://c1.staticflickr.com/3/2504/3780328809_61b74582f6_b.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 .section{
     text-align: center;
-    color: white;
+    color: blue;
 }
 
+h3 span {
+background-color: white;
+}
