@@ -36,7 +36,7 @@ session_start();
             
             <br />
             
-            <button onClick="validateDetails()"> Validate </button>
+            <button onClick="validateDetails()">Validate</button>
         
             <?php
             // Set session session

@@ -18,18 +18,12 @@
             
         }
     </style>
-    <h4 classSelect a product<h1/>
+    <h4>Select a product<h4/>
     
     <br/>
     
     <form method="POST" action="Ebus2.php">
     
-
-
-
-
-
-
     <lable for="salesforce">
     
     <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -47,7 +41,7 @@
      <br/>
      
      <lable for="subtotal">
-         sub  total 
+         Sub  Total 
          <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
          </lable>
          
