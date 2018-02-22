@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <div align="center">
         <title> Enter Details</title>
         
         
@@ -27,20 +27,23 @@ session_start();
                 </label>
                 
                 <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
-                    
                 <button type="Submit" id="btnPurchase" disabled> 
-                    Proceed with Purchase 
+                Proceed with Purchase 
                 </button>
+                <br>
                 
             </form>
             
             <br />
             
             <button onClick="validateDetails()">Validate</button>
-        
+            </div>
             <?php
             // Set session session
-            $_SESSION["total"] = $_Post["total"];
+            $_SESSION["subtotal"] = $_POST["subtotal"];
+            $_SESSION["discount"] = $_POST["discount"];
+            $_SESSION["vat"] = $_POST["vat"];
+            $_SESSION["total"] = $_POST["total"];
             ?>
     </body>
     
