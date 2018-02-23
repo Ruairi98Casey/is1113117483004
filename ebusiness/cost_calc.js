@@ -16,28 +16,15 @@ function calcSub(){
         }else{
             argSubtotal = 80;
         }
-        display(argSubtotal);
-    calcDisVatTotal()
+    calcDisVatTotal(argSubtotal);
 }
     function calcDisVatTotal(parmSubtotal){
-        if(document.getElementById('salesforce').checked) {
-        discountAmt = 5;
-        vatAmt = 9.5;
-        totalPrice = 104.5;
-        }else if(document.getElementById('aws').checked) {
-        discountAmt = 15;
-        vatAmt = 28.5;
-        totalPrice = 256.5;
-        }else if(document.getElementById('Gmail').checked) {
-        discountAmt = 7.5;
-        vatAmt = 14.25;
-        totalPrice = 128.25;
-        }else{
-        discountAmt = 4;
-        vatAmt = 7.6;
-        totalPrice = 69.4;
-        }
-        display(subtotal, discountAmt, vatAmt, totalPrice)
+        var subtotal = parmSubtotal;
+        var discountAmt = parmSubtotal * .05;
+        var vatAmt = parmSubtotal * .1;
+        var totalPrice = parmSubtotal - discountAmt + vatAmt ;
+        
+        display(subtotal, discountAmt, vatAmt, totalPrice);
 }
 function display(parm1, parm2, parm3, parm4){
     

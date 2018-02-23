@@ -44,6 +44,10 @@ session_start();
             $_SESSION["discount"] = $_POST["discount"];
             $_SESSION["vat"] = $_POST["vat"];
             $_SESSION["total"] = $_POST["total"];
+            $_SESSION["user_firstname"] = $_POST["user_firstname"];
+            $_SESSION["user_lastname"] = $_POST["user_lastname"];
+            $_SESSION["user_adress"] = $_POST["user_adress"];
+            $_SESSION["user_number"] = $_POST["user_number"];
             ?>
     </body>
     
