@@ -11,6 +11,16 @@ session_start();
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
+
+    <style>
+        body, html {
+        background-image: url("https://newevolutiondesigns.com/images/freebies/white-wallpaper-8.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        }         
+    </style>
     
     </head>
 
@@ -28,46 +38,27 @@ session_start();
     
     <br/>
     
-    <form method="POST" action="Ebus2.php">
+    <form method="POST" onsubmit="return validate()" action="Ebus2.php">
         
                 
     <label for="user_firstname">
     First Name 
     </label>
-                
-    <input type="name" name="user_firstname" id="user_firstname" placeholder="First Name" maxlength="15">                
+    <input type="name" name="user_firstname" id="user_firstname" placeholder="First Name" maxlength="15" checked onClick="disablebtnProceed()">                
                     
     <br>
                 
     <label for="user_lastname">
     Last Name 
     </label>
-                
     <input type="name" name="user_lastname" id="user_lastname" placeholder="Last Name" maxlength="15">                
-
-    <br>
-    
-    <label for="user_adress">
-    Adress 
-    </label>
-                
-    <input type="name" name="user_adress" id="user_adress" placeholder="Adress" maxlength="40">
-    
-    <br>
-    
-    <label for="user_number">
-    Contact Number
-    </label>
-                
-    <input type="number" name="user_number" id="user_number" placeholder="Contact Number" maxlength="10">
     
     <br>
                 
-    <label for="email">
+    <label for="user_email">
     Email Adress 
     </label>
-                
-    <input type="email" name="email" id="user_email" placeholder="Email Adress" maxlength="35">
+    <input type="email" name="user_email" id="user_email" placeholder="Email Adress" maxlength="35">
     <br>
     
     <br><lable for="salesforce">
@@ -93,6 +84,7 @@ session_start();
     Cloud9 @ $80
     </lable>
      
+     <br>
      <br>
     
     <lable for="subtotal">

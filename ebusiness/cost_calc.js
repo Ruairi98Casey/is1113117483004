@@ -36,6 +36,27 @@ function display(parm1, parm2, parm3, parm4){
     enablebtnProceed();
 }
 
+function validate(){
+    
+    if (document.getElementById("user_firstname").value == ""){
+        //User cannnot leave this field empty
+        alert ('You must enter your First Name');
+        return false;
+    }
+        else if (document.getElementById("user_lastname").value == ""){
+        //User cannnot leave this field empty
+        alert ('You must enter your Last Name');
+        return false;
+    }
+        else if (document.getElementById("user_email").value == ""){
+        //User cannnot leave this field empty
+        alert ('You must enter your Email Adress');
+        return false;
+    }
+    {
+        return true;
+    }
+}
 
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);

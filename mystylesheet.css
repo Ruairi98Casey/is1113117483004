@@ -10,6 +10,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
+    border-radius: 50px;
 }
 
 .btn-sports {
@@ -36,6 +37,7 @@
     -webkit-transition-duration: 0.5s; /* Safari */
     transition-duration: 0.5s;
     cursor: pointer;
+    border-radius: 50px;
 }
 
 .btn-travel2 {
@@ -49,3 +51,29 @@
     color: white;
 }
 
+.btn-cloud {
+    background-color: #C4C2A5; /* moon white */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.btn-cloud {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #C4C2A5;
+}
+
+.btn-cloud:hover {
+    background-color: #C4C2A5;
+    color: white;
+}

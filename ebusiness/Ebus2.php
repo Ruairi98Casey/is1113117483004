@@ -5,6 +5,17 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+        
+    <style>
+        body, html {
+        background-image: url("https://newevolutiondesigns.com/images/freebies/white-wallpaper-8.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        }         
+    </style>
+    
         <div align="center">
         <title> Enter Details</title>
         
@@ -46,8 +57,7 @@ session_start();
             $_SESSION["total"] = $_POST["total"];
             $_SESSION["user_firstname"] = $_POST["user_firstname"];
             $_SESSION["user_lastname"] = $_POST["user_lastname"];
-            $_SESSION["user_adress"] = $_POST["user_adress"];
-            $_SESSION["user_number"] = $_POST["user_number"];
+            $_SESSION["user_email"] = $_POST["user_email"];
             ?>
     </body>
     
