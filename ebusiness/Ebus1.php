@@ -42,7 +42,7 @@ session_start();
         
     <fieldset>
     <label for="user_firstname">First Name:</label><input type="text" name="user_firstname" id="user_firstname" placeholder="First Name" maxlength="15" size="20" checked onClick="disablebtnProceed()">
-    <label for="user_lastname">Surname:</label><input type="text" name="user_lastname" id="user_lastnanme" placeholder="Surame" maxlength="15" size="20">
+    <label for="user_lastname">Surname:</label><input type="text" name="user_lastname" id="user_lastname" placeholder="Surame" maxlength="15" size="20">
     <label for="user_email">Email Address:</label><input type="email" name="user_email" id="user_email" placeholder="Email Adress" maxlength="35" size="20">
     </fieldset>
     

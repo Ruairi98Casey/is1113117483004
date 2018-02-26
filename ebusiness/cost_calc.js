@@ -42,18 +42,15 @@ function validate(){
         //User cannnot leave this field empty
         alert ('You must enter your First Name');
         return false;
-    }
-        else if (document.getElementById("user_lastname").value == ""){
+        }else if (document.getElementById("user_lastname").value == ""){
         //User cannnot leave this field empty
         alert ('You must enter your Last Name');
         return false;
-    }
-        else if (document.getElementById("user_email").value == ""){
+        }else if (document.getElementById("user_email").value == ""){
         //User cannnot leave this field empty
         alert ('You must enter your Email Adress');
         return false;
-    }
-    {
+    }else{
         return true;
     }
 }
