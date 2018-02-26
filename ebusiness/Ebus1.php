@@ -34,31 +34,18 @@ session_start();
     
     </style>
     
-    <h4>Select a product<h4/>
+    <h1>Select a product</h1>
     
     <br/>
     
     <form method="POST" onsubmit="return validate()" action="Ebus2.php">
         
-                
-    <label for="user_firstname">
-    First Name 
-    </label>
-    <input type="name" name="user_firstname" id="user_firstname" placeholder="First Name" maxlength="15" checked onClick="disablebtnProceed()">                
-                    
-    <br>
-                
-    <label for="user_lastname">
-    Last Name 
-    </label>
-    <input type="name" name="user_lastname" id="user_lastname" placeholder="Last Name" maxlength="15">                
+    <fieldset>
+    <label for="user_firstname">First Name:</label><input type="text" name="user_firstname" id="user_firstname" placeholder="First Name" maxlength="15" size="20" checked onClick="disablebtnProceed()">
+    <label for="user_lastname">Surname:</label><input type="text" name="user_lastname" id="user_lastnanme" placeholder="Surame" maxlength="15" size="20">
+    <label for="user_email">Email Address:</label><input type="email" name="user_email" id="user_email" placeholder="Email Adress" maxlength="35" size="20">
+    </fieldset>
     
-    <br>
-                
-    <label for="user_email">
-    Email Adress 
-    </label>
-    <input type="email" name="user_email" id="user_email" placeholder="Email Adress" maxlength="35">
     <br>
     
     <br><lable for="salesforce">
@@ -87,32 +74,12 @@ session_start();
      <br>
      <br>
     
-    <lable for="subtotal">
-    Subtotal
-    <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
-    </lable>
-         
-    <br>
-         
-    <lable for="discount">
-    Discount
-    <input type="text" id="discount" name="discount" value="0.00" readonly/>
-    </lable>
-             
-    <br>
-    
-         
-    <lable for="vat">
-    VAT
-    <input type="text" id="vat" name="vat" value="0.00" readonly/>
-    </lable>
-    
-    <br>
-         
-    <lable for="total">
-    Total
-    <input type="text" id="total" name="total" value="0.00" readonly/>
-    </lable>
+    <fieldset>
+    <label for="subtotal">Subtotal:</label><input type="text" name="subtotal" id="subtotal" value="0.00" readonly/>
+    <label for="discount">Discount:</label><input type="text" name="discount" id="discount" value="0.00" readonly/>
+    <label for="vat">Vat:</label><input type="email" name="vat" id="vat" value="0.00" readonly/>
+    <label for="total">Total:</label><input type="text" name="total" id="total" value="0.00" readonly/>
+    </fieldset>
     
     <br>
              

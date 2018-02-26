@@ -27,7 +27,7 @@ session_start();
         echo "<br>";
         echo "First Name: " . $_SESSION["user_firstname"] . ".";
         echo "<br>";
-        echo "Last Name: " . $_SESSION["user_lastname"] . ".";
+        echo "Surname: " . $_SESSION["user_lastname"] . ".";
         echo "<br>";
         echo "Email Adress: " . $_SESSION["user_email"] . ".";     
         ?>
