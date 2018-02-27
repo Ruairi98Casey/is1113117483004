@@ -44,7 +44,7 @@ function validate(){
         return false;
         }else if (document.getElementById("user_lastname").value == ""){
         //User cannnot leave this field empty
-        alert ('You must enter your Last Name');
+        alert ('You must enter your Surname');
         return false;
         }else if (document.getElementById("user_email").value == ""){
         //User cannnot leave this field empty
