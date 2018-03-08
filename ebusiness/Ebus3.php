@@ -5,6 +5,10 @@ session_start();
 <html>
     <head>
         <title>RECEIPT</title>
+        
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
+        <link rel="stylesheet" href="int_pages.css" type="text/css" />
+        
     </head>
     <style>
         body, html {
@@ -34,6 +38,8 @@ session_start();
         
         <img src="http://www.animatedimages.org/data/media/361/animated-cloud-image-0014.gif"
         alt="Cloud Gif" style="width:180px;height:180px;position:absolute;top:70%;right:45%;"></a>
+        
+        <a href="../homepage.html" class="btn btn-about">Home</a>
         
         </div>
     </body>

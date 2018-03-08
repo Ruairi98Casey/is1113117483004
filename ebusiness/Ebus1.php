@@ -7,7 +7,6 @@ session_start();
     <head>
         <title>Select Product</title>
         
-        
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
@@ -96,6 +95,7 @@ session_start();
      <br/> 
      <button onClick="calcSub()">Calculate cost</button>
      <a role="button" href="Ebus1.php">Clear Choices</a>
+     <a role="button" href="../homepage.html">Home</a>
      
     <img src="http://www.animatedimages.org/data/media/361/animated-cloud-image-0014.gif"
     alt="Cloud Gif" style="width:180px;height:180px;position:absolute;top:70%;right:45%;"></a>
