@@ -59,6 +59,10 @@ session_start();
             $_SESSION["user_lastname"] = $_POST["user_lastname"];
             $_SESSION["user_email"] = $_POST["user_email"];
             ?>
+            
+        <img src="http://www.animatedimages.org/data/media/361/animated-cloud-image-0014.gif"
+        alt="Cloud Gif" style="width:180px;height:180px;position:absolute;top:70%;right:45%;"></a>        
+
     </body>
     
     
