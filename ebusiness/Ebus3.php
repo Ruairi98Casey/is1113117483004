@@ -10,16 +10,19 @@ session_start();
         <link rel="stylesheet" href="int_pages.css" type="text/css" />
         
     </head>
-    <style>
-        body, html {
-        background-image: url("https://newevolutiondesigns.com/images/freebies/white-wallpaper-8.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100%;
-        }         
-    </style>
+
     <body>
+        
+        <style>
+            body, html {
+            background-image: url("https://newevolutiondesigns.com/images/freebies/white-wallpaper-8.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            }         
+        </style>
+        
         <div align="center">
         <h2>RECEIPT</h2>
         <br>
